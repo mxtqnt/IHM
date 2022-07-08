@@ -1,28 +1,58 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+
+*{
+    font-family: poppins;
+}
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 h1{
-    font-weight: bold;
+    font-weight: 500;
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
     color: rgb(255, 255, 255);
     font-size:2cm;
     text-align: center;
+    margin: 0ch;
+}
+h2{
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-size:2cm;
+    text-align:left;
+    margin: 0ch;
 }
 a{
-    font-weight:100;
+    font-weight:300;
     font-size: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
     color: rgba(46,2,73,1);
     font-size:0.5cm;
     text-align: center;
+    margin: 15px;
+    margin-bottom: 10px;
 }
 
 body{
+    margin: 0cm;
     background: rgb(46,2,73);
     background: linear-gradient(293deg, rgba(46,2,73,1) 0%, rgba(87,10,87,1) 53%, rgba(169,16,121,1) 76%, rgba(248,6,204,1) 100%);
+}
+
+header{
+    top:0cm;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+.navbar{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    margin: 0cm;
 }
