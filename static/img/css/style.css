@@ -6,12 +6,19 @@
     min-height: 100vh;
 }
 h1{
-    font-style: italic;
     font-weight: bold;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
     color: rgb(255, 255, 255);
     font-size:2cm;
+    text-align: center;
+}
+a{
+    font-weight:100;
+    font-size: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: rgba(46,2,73,1);
+    font-size:0.5cm;
     text-align: center;
 }
 
