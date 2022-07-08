@@ -28,6 +28,7 @@ h2{
     margin: 0ch;
 }
 a{
+    text-decoration: none;
     font-weight:300;
     font-size: 5px;
     color: rgba(46,2,73,1);
@@ -51,7 +52,6 @@ header{
 }
 
 .navbar{
-    text-decoration: none;
     background-color: white;
     padding: 10px;
     margin: 0cm;
