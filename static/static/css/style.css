@@ -28,12 +28,15 @@ h1{
 }
 
 h2{
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-size:1cm;
-    text-align:left;
-    margin: 0ch;
+    text-align:center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h3{
